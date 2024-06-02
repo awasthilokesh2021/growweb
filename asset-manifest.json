@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/growweb/static/css/main.27bc7abd.css",
+    "main.js": "/growweb/static/js/main.2e06e261.js",
+    "index.html": "/growweb/index.html",
+    "main.27bc7abd.css.map": "/growweb/static/css/main.27bc7abd.css.map",
+    "main.2e06e261.js.map": "/growweb/static/js/main.2e06e261.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27bc7abd.css",
+    "static/js/main.2e06e261.js"
+  ]
+}
