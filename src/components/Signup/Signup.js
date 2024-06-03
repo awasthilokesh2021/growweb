@@ -14,7 +14,7 @@ const Signup = () => {
 
   const navigate = useNavigate();
   const { user, setUser } = useContext(Mycontext);
-  console.log(user);
+ // console.log(user);
 
   const setInputData = (e) => {
     const { name, value } = e.target;
@@ -23,19 +23,19 @@ const Signup = () => {
       ...prevData,
       [name]: value,
     }));
-    console.log({ ...data, [name]: value });
+   // console.log({ ...data, [name]: value });
   };
 
   const handleBtn = () => {
-    setUser(data.fname);
+    setUser(data);
     setData({
       fname: "",
       email: "",
       address: "",
       phoneno: "",
     });
-    navigate("/");
-    toast.success("User registered successfully!");
+   // toast.success(`${data.fname.toUpperCase()} successfully added!`);
+   navigate("/")
   };
 
   return (
